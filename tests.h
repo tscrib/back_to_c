@@ -1,6 +1,7 @@
 #include "equi.h"
 #include "prefixSet.h"
 #include "DiscIntersections.h"
+#include "wikibooks.h"
 
 
 //
@@ -9,6 +10,7 @@
 void Prefix_Set_Test( void );
 void Equi_Test( void );
 void Disc_Intersections_Test( void );
+void wikibooks_Test( void );
 
 //
 // Global Variables
@@ -49,4 +51,9 @@ void Disc_Intersections_Test( )
 	// DiscIntersections codility test
 	result = di3( arr, 6);
 	printf("Codility test result = %i\n", result);
+}
+
+void wikibooks_Test()
+{
+	wikibooks14();
 }

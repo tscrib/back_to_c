@@ -20,7 +20,8 @@ int main(void)
 {
 //	Prefix_Set_Test();
 // 	Equi_Test(  );
- 	Disc_Intersections_Test();
+// 	Disc_Intersections_Test();
+	wikibooks_Test();
 
 	return 0;
 }
