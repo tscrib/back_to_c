@@ -56,5 +56,6 @@ void Disc_Intersections_Test( )
 void wikibooks_Test()
 {
 //	wikibooks14();
-	wikibooks21();
+//	wikibooks21();
+	wikibooks25();
 }

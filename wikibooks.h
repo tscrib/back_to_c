@@ -50,3 +50,18 @@ void wikibooks21( void )
 	}
 	
 }
+
+void wikibooks25( void )
+{
+	double A = 50000000, B = 70000000;
+	int years = 0;
+
+	while( B > A )
+	{
+		A = A * 1.03;
+		B = B * 1.02;
+		years++;
+	}
+
+	printf("It will take %i years for country A to surpass country B.\n", years);
+}
